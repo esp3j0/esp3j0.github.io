@@ -12,7 +12,8 @@
     <pubDate>Mon, 27 Jun 2022 18:35:13 &#43;0800</pubDate>
     <author>creepey</author>
     <guid>https://esp3j0.github.io/demo/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[The simple definition of windows registry The Windows Registry is a hierarchical database that stores low-level settings for the Microsoft Windows operating system and for applications that opt to use the registry. The kernel, device drivers, services, Security Accounts Manager, and user interfaces can all use the registry.
+Originally,When intruduced with win3.1,registry primarily stored configuration information for COM-based components. Windows 95 and Windows NT extended its use to rationalize and centralize the information in the profusion of INI files, which held the configurations for individual programs, and were stored at various locations.]]></description>
 </item>
 </channel>
 </rss>

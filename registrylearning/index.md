@@ -14,6 +14,7 @@ Simply, registry is something contains windows's or programme's low-level config
 Registry values are name/data pairs stored within keys,e.g.: 
 >HKEY_CURRENT_USER\AppEvents\EventLabels\DeviceFail
 ![![20220628082955](httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png)](https://creepey-1306653668.cos.ap-shanghai.myqcloud.com/note/![20220628082955](httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png).png)
+
 *Each registry value stored in a registry key has a unique name whose letter case is not significant！*
 ### Details of seven predefined root keys
 

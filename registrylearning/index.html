@@ -32,7 +32,7 @@ Originally,When intruduced with win3.1,registry primarily stored configuration i
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/esp3j0.github.io\/registrylearning\/"
-        },"image": ["https:\/\/esp3j0.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  125 ,
+        },"image": ["https:\/\/esp3j0.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  276 ,
         "url": "https:\/\/esp3j0.github.io\/registrylearning\/","datePublished": "2022-06-27T18:35:13+08:00","dateModified": "2022-06-27T18:35:13+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "esp3j0","logo": "https:\/\/creepey-1306653668.cos.ap-shanghai.myqcloud.com\/note\/头像.jpeg"},"author": {
@@ -107,8 +107,8 @@ Originally,When intruduced with win3.1,registry primarily stored configuration i
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Windows Registry Learning</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>creepey</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-27">2022-06-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;125 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/registrylearning/" class="leancloud_visitors" data-flag-title="Windows Registry Learning">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-27">2022-06-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;276 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;<span id="/registrylearning/" class="leancloud_visitors" data-flag-title="Windows Registry Learning">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -121,7 +121,16 @@ Originally,When intruduced with win3.1,registry primarily stored configuration i
     <li>
       <ul>
         <li><a href="#the-simple-definition-of-windows-registry">The simple definition of windows registry</a></li>
-        <li><a href="#details-of-seven-predefined-root-keys">Details of seven predefined root keys</a></li>
+        <li><a href="#details-of-seven-predefined-root-keys">Details of seven predefined root keys</a>
+          <ul>
+            <li><a href="#hkey_local_machine-hklm">HKEY_LOCAL_MACHINE (HKLM)</a></li>
+            <li><a href="#hkey_classes_root-hkcr">HKEY_CLASSES_ROOT (HKCR)</a></li>
+            <li><a href="#hkey_users-hku">HKEY_USERS (HKU)</a></li>
+            <li><a href="#hkey_current_user-hkcu">HKEY_CURRENT_USER (HKCU)</a></li>
+            <li><a href="#hkey_performance_data">HKEY_PERFORMANCE_DATA</a></li>
+            <li><a href="#hkey_dyn_data">HKEY_DYN_DATA</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -132,10 +141,39 @@ Originally,When intruduced with win3.1,registry primarily stored configuration i
 <p>Originally,When intruduced with win3.1,registry primarily stored configuration information for COM-based components. Windows 95 and Windows NT extended its use to rationalize and centralize the information in the profusion of INI files, which held the configurations for individual programs, and were stored at various locations.</p>
 </blockquote>
 <blockquote>
+<p>Like other files and services in Windows, all registry keys may be restricted by access control lists (ACLs), depending on user privileges, or on security tokens acquired by applications, or on system security policies enforced by the system (these restrictions may be predefined by the system itself, and configured by local system administrators or by domain administrators). Different users, programs, services or remote systems may only see some parts of the hierarchy or distinct hierarchies from the same root keys.</p>
+</blockquote>
+<blockquote>
 <p><a href="https://en.wikipedia.org/wiki/Windows_Registry" target="_blank" rel="noopener noreffer ">https://en.wikipedia.org/wiki/Windows_Registry</a></p>
 </blockquote>
-<p>Simply, registry is something contains windows&rsquo;s or programme&rsquo;s low-level configures and system stores each entry which has the structure of &lsquo;key and value&rsquo;  in tree shape.</p>
+<p>Simply, registry is something contains windows&rsquo;s or programme&rsquo;s low-level configures and each registry entry has key and value.key is somthing like folder in windows file system and value is file in the innermost folder.Not all the applications need registry and different accesser who extra data from registry has different view which controled by local system administrators or by domain administrators.</p>
+<p>Registry values are name/data pairs stored within keys,e.g.:</p>
+<blockquote>
+<p>HKEY_CURRENT_USER\AppEvents\EventLabels\DeviceFail
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://creepey-1306653668.cos.ap-shanghai.myqcloud.com/note/![20220628082955]%28httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png%29.png"
+        data-srcset="https://creepey-1306653668.cos.ap-shanghai.myqcloud.com/note/![20220628082955]%28httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png%29.png, https://creepey-1306653668.cos.ap-shanghai.myqcloud.com/note/![20220628082955]%28httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png%29.png 1.5x, https://creepey-1306653668.cos.ap-shanghai.myqcloud.com/note/![20220628082955]%28httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png%29.png 2x"
+        data-sizes="auto"
+        alt="https://creepey-1306653668.cos.ap-shanghai.myqcloud.com/note/![20220628082955](httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png).png"
+        title="&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;/svg/loading.min.svg&#34;
+        data-src=&#34;httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png&#34;
+        data-srcset=&#34;httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png, httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png 1.5x, httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png 2x&#34;
+        data-sizes=&#34;auto&#34;
+        alt=&#34;httpscreepey-1306653668.cos.ap-shanghai.myqcloud.comnote20220628082955.png&#34;
+        title=&#34;20220628082955&#34; /&gt;" />
+<em>Each registry value stored in a registry key has a unique name whose letter case is not significant！</em></p>
+</blockquote>
 <h3 id="details-of-seven-predefined-root-keys">Details of seven predefined root keys</h3>
+<h4 id="hkey_local_machine-hklm">HKEY_LOCAL_MACHINE (HKLM)</h4>
+<h4 id="hkey_classes_root-hkcr">HKEY_CLASSES_ROOT (HKCR)</h4>
+<h4 id="hkey_users-hku">HKEY_USERS (HKU)</h4>
+<h4 id="hkey_current_user-hkcu">HKEY_CURRENT_USER (HKCU)</h4>
+<h4 id="hkey_performance_data">HKEY_PERFORMANCE_DATA</h4>
+<h4 id="hkey_dyn_data">HKEY_DYN_DATA</h4>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

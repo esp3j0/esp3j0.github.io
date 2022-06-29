@@ -1,4 +1,4 @@
-# Windows Registry Learning
+# Windows Registry
 
 ## The simple definition of windows registry
 > The Windows Registry is a hierarchical database that stores low-level settings for the Microsoft Windows operating system and for applications that opt to use the registry. The kernel, device drivers, services, Security Accounts Manager, and user interfaces can all use the registry. 

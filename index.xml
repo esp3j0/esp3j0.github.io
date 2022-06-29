@@ -4,18 +4,10 @@
         <link>https://esp3j0.github.io/</link>
         <description>Hugo theme - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>esp3j0@outlook.com (creepey)</managingEditor>
-            <webMaster>esp3j0@outlook.com (creepey)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Jun 2022 08:57:51 &#43;0800</lastBuildDate>
+            <webMaster>esp3j0@outlook.com (creepey)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Jun 2022 18:35:13 &#43;0800</lastBuildDate>
             <atom:link href="https://esp3j0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Test</title>
-    <link>https://esp3j0.github.io/test/</link>
-    <pubDate>Wed, 29 Jun 2022 08:57:51 &#43;0800</pubDate>
-    <author>creepey</author>
-    <guid>https://esp3j0.github.io/test/</guid>
-    <description><![CDATA[附录 参考文章 版权信息 本文原载于kermsite.com，复制请保留原文出处。 ]]></description>
-</item>
-<item>
-    <title>Windows Registry Learning</title>
+    <title>Windows Registry</title>
     <link>https://esp3j0.github.io/registrylearning/</link>
     <pubDate>Mon, 27 Jun 2022 18:35:13 &#43;0800</pubDate>
     <author>creepey</author>

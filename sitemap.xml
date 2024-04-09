@@ -1,0 +1,10 @@
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/windowsregister/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/howtolearn/</loc><lastmod>2024-04-09T14:13:02&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/categories/</loc></url><url>
+            <loc>http://localhost:1313/tags/</loc></url></urlset>

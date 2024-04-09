@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>esp3j0</title>
+        <link>http://localhost:1313/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>esp3j0@outlook.com (esp3j0)</managingEditor>
+            <webMaster>esp3j0@outlook.com (esp3j0)</webMaster><lastBuildDate>Tue, 09 Apr 2024 14:18:12 &#43;0800</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>WindowsRegister</title>
+    <link>http://localhost:1313/posts/windowsregister/</link>
+    <pubDate>Tue, 09 Apr 2024 14:18:12 &#43;0800</pubDate>
+    <author>esp3j0</author>
+    <guid>http://localhost:1313/posts/windowsregister/</guid>
+    <description><![CDATA[Windows Registry The simple definition of windows registry The Windows Registry is a hierarchical database that stores low-level settings for the Microsoft Windows operating system and for applications that opt to use the registry. The kernel, device drivers, services, Security Accounts Manager, and user interfaces can all use the registry.
+Originally,When intruduced with win3.1,registry primarily stored configuration information for COM-based components. Windows 95 and Windows NT extended its use to rationalize and centralize the information in the profusion of INI files, which held the configurations for individual programs, and were stored at various locations.]]></description>
+</item>
+<item>
+    <title>HowToLearn</title>
+    <link>http://localhost:1313/posts/howtolearn/</link>
+    <pubDate>Tue, 09 Apr 2024 14:13:02 &#43;0800</pubDate>
+    <author>esp3j0</author>
+    <guid>http://localhost:1313/posts/howtolearn/</guid>
+    <description><![CDATA[HowToLearn preface Have you ever paly Minecraft or other games.When you are palying them，you must have one sence that your time fly.We paly them with our all attentions, and never tired.In my opinion,if we know the underlying logic,learning skills is something similar to playing games which is interestng and appealing.
+The way to achieve real world goals is similar to mincraft crafting recipes.Everyone has its specific achieving goals methods.As a result.]]></description>
+</item>
+</channel>
+</rss>

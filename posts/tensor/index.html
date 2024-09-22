@@ -4,31 +4,29 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>HowToLearn - esp3j0</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="HowToLearn" />
-<meta property="og:description" content="HowToLearn preface Have you ever paly Minecraft or other games.When you are palying them，you must have one sence that your time fly.We paly them with our all attentions, and never tired.In my opinion,if we know the underlying logic,learning skills is something similar to playing games which is interestng and appealing.
-The way to achieve real world goals is similar to mincraft crafting recipes.Everyone has its specific achieving goals methods.As a result." />
+        <title>对于神经网络中张量中各种维度的理解 - esp3j0</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="对于神经网络中张量中各种维度的理解" />
+<meta property="og:description" content="引言 咱们高中，大学上线代课程的时候都会接触到一个词&ndash;向量&ndash;，向量这个东西有个被称为维度的属性。 平面中的一个点，可以用" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://esp3j0.github.io/posts/howtolearn/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-04-09T14:13:02+08:00" />
-<meta property="article:modified_time" content="2024-04-09T14:13:02+08:00" /><meta property="og:site_name" content="My cool site" />
+<meta property="og:url" content="https://esp3j0.github.io/posts/tensor/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-09-22T09:45:47+00:00" />
+<meta property="article:modified_time" content="2024-09-22T09:45:47+00:00" /><meta property="og:site_name" content="My cool site" />
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="HowToLearn"/>
-<meta name="twitter:description" content="HowToLearn preface Have you ever paly Minecraft or other games.When you are palying them，you must have one sence that your time fly.We paly them with our all attentions, and never tired.In my opinion,if we know the underlying logic,learning skills is something similar to playing games which is interestng and appealing.
-The way to achieve real world goals is similar to mincraft crafting recipes.Everyone has its specific achieving goals methods.As a result."/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="对于神经网络中张量中各种维度的理解"/>
+<meta name="twitter:description" content="引言 咱们高中，大学上线代课程的时候都会接触到一个词&ndash;向量&ndash;，向量这个东西有个被称为维度的属性。 平面中的一个点，可以用"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://esp3j0.github.io/posts/howtolearn/" /><link rel="next" href="https://esp3j0.github.io/posts/windowsregister/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://esp3j0.github.io/posts/tensor/" /><link rel="prev" href="https://esp3j0.github.io/posts/windowsregister/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "HowToLearn",
+        "headline": "对于神经网络中张量中各种维度的理解",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/esp3j0.github.io\/posts\/howtolearn\/"
-        },"genre": "posts","wordcount":  136 ,
-        "url": "https:\/\/esp3j0.github.io\/posts\/howtolearn\/","datePublished": "2024-04-09T14:13:02+08:00","dateModified": "2024-04-09T14:13:02+08:00","publisher": {
+            "@id": "https:\/\/esp3j0.github.io\/posts\/tensor\/"
+        },"genre": "posts","wordcount":  298 ,
+        "url": "https:\/\/esp3j0.github.io\/posts\/tensor\/","datePublished": "2024-09-22T09:45:47+00:00","dateModified": "2024-09-22T09:45:47+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -68,10 +66,10 @@ The way to achieve real world goals is similar to mincraft crafting recipes.Ever
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">HowToLearn</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">对于神经网络中张量中各种维度的理解</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>esp3j0</a>
 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-04-09">2024-04-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;136 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-09-22">2024-09-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;298 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -80,32 +78,31 @@ The way to achieve real world goals is similar to mincraft crafting recipes.Ever
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#step1">step1</a></li>
-    <li><a href="#step2">step2</a></li>
-    <li><a href="#step3">step3</a></li>
+    <li><a href="#引言">引言</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="howtolearn">HowToLearn</h1>
-<h1 id="preface">preface</h1>
-<p>Have you ever paly Minecraft or other games.When you are palying them，you must have one sence that your time fly.We paly them with our all attentions, and never tired.In my opinion,if we know the underlying logic,learning skills is something similar to playing games which is interestng and appealing.</p>
-<p><strong>The way to achieve real world goals is similar to mincraft crafting recipes.Everyone has its specific achieving goals methods.As a result.you need to create the recipe suitable for you with the help of mind map.</strong></p>
-<h1 id="how">how</h1>
-<h2 id="step1">step1</h2>
-<p>Set the goals, also say, make sure what you want to creat in minecarft world.</p>
-<h2 id="step2">step2</h2>
-<p>Find the goals recipe,game worlds tell you what you need to collect,but in real world,it depends on yourself finding the recipes.If necessary,you should make a mind map to expand the goals.</p>
-<h2 id="step3">step3</h2>
-<p>collecting!</p>
+            </div><div class="content" id="content"><h2 id="引言">引言</h2>
+<p>咱们高中，大学上线代课程的时候都会接触到一个词&ndash;向量&ndash;，向量这个东西有个被称为维度的属性。</p>
+<p>平面中的一个点，可以用二维的向量表示。空间中的一个点可以用三维的向量表示。</p>
+<p>可是<code>(torch.rand((3,2,2)).dim()) == 3</code>，这个tensor的三维是个啥子？？？？</p>
+<p>在tensorflow和pytorch中，被运算的基础单位为tensor，被翻译为中文的话，叫做张量。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">torch</span><span class="o">.</span><span class="n">rand</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+</span></span></code></pre></div><p>torch.rand((2,3,4,5)).size()[-1] == 5 被称为向量维度</p>
+<p>torch.rand((2,3,4,5)).size()[:-1] == [2,3,4] 被称为类倍值（类似于最后一个向量n倍的值）</p>
+<p>len(torch.rand((2,3,4,5)).size()) == 4 被称为张量维度</p>
+<p>n个二维的点：torch.rand((n,2))</p>
+<p>n个三维的点: torch.rand((n,3))</p>
+<p>n个3通道，长为512，宽为1024的图片: torch.rand((n,3,512,1024))</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-04-09</span>
+                <span>Updated on 2024-09-22</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://esp3j0.github.io/posts/howtolearn/" data-title="HowToLearn"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://esp3j0.github.io/posts/howtolearn/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://esp3j0.github.io/posts/howtolearn/" data-title="HowToLearn"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://esp3j0.github.io/posts/howtolearn/" data-title="HowToLearn"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://esp3j0.github.io/posts/howtolearn/" data-title="HowToLearn"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://esp3j0.github.io/posts/tensor/" data-title="对于神经网络中张量中各种维度的理解"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://esp3j0.github.io/posts/tensor/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://esp3j0.github.io/posts/tensor/" data-title="对于神经网络中张量中各种维度的理解"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://esp3j0.github.io/posts/tensor/" data-title="对于神经网络中张量中各种维度的理解"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://esp3j0.github.io/posts/tensor/" data-title="对于神经网络中张量中各种维度的理解"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -117,8 +114,7 @@ The way to achieve real world goals is similar to mincraft crafting recipes.Ever
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/posts/windowsregister/" class="next" rel="next" title="WindowsRegister">WindowsRegister<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/windowsregister/" class="prev" rel="prev" title="WindowsRegister"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>WindowsRegister</a></div>
 </div>
 </article></div>
             </main><footer class="footer">

@@ -2,9 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/windowsregister/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/howtolearn/</loc><lastmod>2024-04-09T14:13:02&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/</loc></url><url>
-            <loc>http://localhost:1313/tags/</loc></url></urlset>
+            <loc>https://esp3j0.github.io/</loc><lastmod>2024-09-22T09:45:47&#43;00:00</lastmod></url><url>
+            <loc>https://esp3j0.github.io/posts/</loc><lastmod>2024-09-22T09:45:47&#43;00:00</lastmod></url><url>
+            <loc>https://esp3j0.github.io/posts/tensor/</loc><lastmod>2024-09-22T09:45:47&#43;00:00</lastmod></url><url>
+            <loc>https://esp3j0.github.io/posts/windowsregister/</loc><lastmod>2024-04-09T14:18:12&#43;08:00</lastmod></url><url>
+            <loc>https://esp3j0.github.io/posts/howtolearn/</loc><lastmod>2024-04-09T14:13:02&#43;08:00</lastmod></url><url>
+            <loc>https://esp3j0.github.io/categories/</loc></url><url>
+            <loc>https://esp3j0.github.io/tags/</loc></url></urlset>

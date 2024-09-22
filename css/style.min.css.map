@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/esp3j/work/rep/blog/blogsrc/esp3j0-blog",
+	"sourceRoot": "/home/esp3j0/rep/blogsrc/esp3j0-blog",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/css/_variables.scss",
